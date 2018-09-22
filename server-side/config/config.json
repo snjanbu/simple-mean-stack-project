@@ -1,0 +1,10 @@
+{
+    "development":{
+        "port":3000,
+        "mongo_db_uri":"mongodb://localhost:27017/sampledb"
+    },
+    "production":{
+        "port":80,
+        "mongo_db_uri":"mongodb://sanjay:sanjay123@ds211613.mlab.com:11613/meanstack"
+    }
+}
